@@ -12,6 +12,8 @@
     --black: #141414;
     --dark-gray: #1F1F1F;
     --white: #FFF;
+    --neon-purple:#6b2af8;
+    --grey: #333;
 }
 body {
     background-color: var(--black);
@@ -53,4 +55,38 @@ h1{
 ul,li {
 
     list-style: none;
+}
+
+strong{
+
+    color:var(--neon-purple);
+    font-size: 14px;
+
+}
+
+p{
+
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+a{
+
+    display: block;
+    background-color: #333;
+    margin-bottom: 16px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+
+}
+
+a:hover{
+
+    background-color: var(--neon-purple);
+    color: var(--grey);
+    transition: 0.6s;
 }
